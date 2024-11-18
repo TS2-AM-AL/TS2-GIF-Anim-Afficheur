@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
   <Transactions>
-    <Transaction>2024/11/18 09:06:11.076,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
-    <Transaction>2024/11/18 09:06:11.107,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
-    <Transaction>2024/11/18 09:06:29.466,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\main.cpp=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
-    <Transaction>2024/11/18 09:06:29.466,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\main.dfm=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
-    <Transaction>2024/11/18 09:06:29.466,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\main.h=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Unit1.h</Transaction>
-    <Transaction>2024/11/18 09:06:54.506,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\main.h=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\main.h</Transaction>
-    <Transaction>2024/11/18 09:06:54.506,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\main.cpp=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\main.cpp</Transaction>
-    <Transaction>2024/11/18 09:06:54.506,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\main.dfm=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\main.dfm</Transaction>
-    <Transaction>2024/11/18 09:06:55.248,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1PCH1.h=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
-    <Transaction>2024/11/18 09:06:59.171,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1.cbproj=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2024/11/18 10:56:08.467,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2024/11/18 10:56:08.477,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2024/11/18 10:56:21.213,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\File1.cpp=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2024/11/18 10:56:22.648,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1PCH1.h=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2024/11/18 10:56:23.699,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1.cbproj=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
   </Transactions>
 </BorlandProject>
