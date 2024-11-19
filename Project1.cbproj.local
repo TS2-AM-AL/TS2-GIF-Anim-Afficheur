@@ -1,10 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2024/11/18 10:56:08.467,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
-    <Transaction>2024/11/18 10:56:08.477,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
-    <Transaction>2024/11/18 10:56:21.213,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\File1.cpp=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
-    <Transaction>2024/11/18 10:56:22.648,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1PCH1.h=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
-    <Transaction>2024/11/18 10:56:23.699,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1.cbproj=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+	<Transactions>
+    <Transaction>2024/11/18 10:56:08.000.477,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2024/11/18 10:56:08.000.467,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2024/11/18 10:56:21.000.213,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\File1.cpp</Transaction>
+    <Transaction>2024/11/18 10:56:22.000.648,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1PCH1.h</Transaction>
+    <Transaction>2024/11/18 10:56:23.000.699,C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\Project1.cbproj=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Project1.cbproj</Transaction>
+    <Transaction>2024/11/19 10:45:25.202,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\dgif_lib.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.216,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\egif_lib.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.226,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\getarg.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.233,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gif_err.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.243,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gif_font.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.246,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gif_hash.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.256,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gif2rgb.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.266,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifalloc.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.273,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifbg.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.284,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifbuild.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.295,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifclrmp.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.303,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifcolor.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.310,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifecho.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.320,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\giffilter.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.330,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\giffix.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.338,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifhisto.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.345,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifinto.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.352,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifsponge.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.360,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\giftext.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.367,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\giftool.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.373,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gifwedge.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.380,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\openbsd-reallocarray.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.386,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\qprintf.c</Transaction>
+    <Transaction>2024/11/19 10:45:25.393,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\quantize.c</Transaction>
+    <Transaction>2024/11/19 10:46:37.458,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\getarg.h</Transaction>
+    <Transaction>2024/11/19 10:46:37.460,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gif_hash.h</Transaction>
+    <Transaction>2024/11/19 10:46:37.462,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gif_lib.h</Transaction>
+    <Transaction>2024/11/19 10:46:37.465,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\giflib-5.2.2\gif_lib_private.h</Transaction>
+    <Transaction>2024/11/19 11:16:43.086,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\Unit1.cpp</Transaction>
+    <Transaction>2024/11/19 11:17:12.573,=C:\Users\amorlet.LLA\Documents\Embarcadero\Studio\Projets\TS2 Gif animé\main.cpp</Transaction>
   </Transactions>
 </BorlandProject>
