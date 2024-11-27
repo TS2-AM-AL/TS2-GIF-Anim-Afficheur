@@ -32,13 +32,9 @@
         <CfgParent>Base</CfgParent>
         <Base>true</Base>
     </PropertyGroup>
-    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win64)'!=''">
-        <Cfg_2_Win64>true</Cfg_2_Win64>
-        <CfgParent>Cfg_2</CfgParent>
-        <Cfg_2>true</Cfg_2>
-        <Base>true</Base>
-    </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
+        <ILINK_LibraryPath>..\..\Downloads\giflib-5.2.2\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <IncludePath>..\..\Downloads\giflib-5.2.2\;$(IncludePath)</IncludePath>
         <Multithreaded>true</Multithreaded>
         <_TCHARMapping>char</_TCHARMapping>
         <SanitizedProjectName>Project1</SanitizedProjectName>
@@ -88,9 +84,6 @@
         <Defines>NDEBUG;$(Defines)</Defines>
         <TASM_Debugging>None</TASM_Debugging>
     </PropertyGroup>
-    <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
-        <BCC_PCHName_Clang>Project1PCH1.h</BCC_PCHName_Clang>
-    </PropertyGroup>
     <ItemGroup>
         <CppCompile Include="File1.cpp">
             <BuildOrder>1</BuildOrder>
@@ -98,6 +91,175 @@
         <PCHCompile Include="Project1PCH1.h">
             <BuildOrder>0</BuildOrder>
         </PCHCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\build.adoc"/>
+        <None Include="..\..\Downloads\giflib-5.2.2\ChangeLog"/>
+        <None Include="..\..\Downloads\giflib-5.2.2\control"/>
+        <None Include="..\..\Downloads\giflib-5.2.2\COPYING"/>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\dgif_lib - Copie - Copie.c">
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\dgif_lib - Copie.c">
+            <BuildOrder>7</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\dgif_lib.c">
+            <BuildOrder>8</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\egif_lib - Copie - Copie.c">
+            <BuildOrder>9</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\egif_lib - Copie.c">
+            <BuildOrder>10</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\egif_lib.c">
+            <BuildOrder>11</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\getarg - Copie - Copie.c">
+            <BuildOrder>12</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\getarg - Copie - Copie.h">
+            <BuildOrder>13</BuildOrder>
+        </None>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\getarg - Copie.c">
+            <BuildOrder>14</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\getarg - Copie.h">
+            <BuildOrder>15</BuildOrder>
+        </None>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\getarg.c">
+            <BuildOrder>16</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\getarg.h">
+            <BuildOrder>17</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\getversion"/>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif2rgb - Copie - Copie.c">
+            <BuildOrder>19</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif2rgb - Copie.c">
+            <BuildOrder>20</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif2rgb.c">
+            <BuildOrder>21</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifalloc - Copie - Copie.c">
+            <BuildOrder>22</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifalloc - Copie.c">
+            <BuildOrder>23</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifalloc.c">
+            <BuildOrder>24</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifbg.c">
+            <BuildOrder>25</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifbuild.c">
+            <BuildOrder>26</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifclrmp.c">
+            <BuildOrder>27</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifcolor.c">
+            <BuildOrder>28</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifecho.c">
+            <BuildOrder>29</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\giffilter.c">
+            <BuildOrder>30</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\giffix.c">
+            <BuildOrder>31</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifhisto.c">
+            <BuildOrder>32</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifinto.c">
+            <BuildOrder>33</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifsponge.c">
+            <BuildOrder>34</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\giftext.c">
+            <BuildOrder>35</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\giftool.c">
+            <BuildOrder>36</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gifwedge.c">
+            <BuildOrder>37</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_err - Copie - Copie.c">
+            <BuildOrder>38</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_err - Copie.c">
+            <BuildOrder>39</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_err.c">
+            <BuildOrder>40</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_font - Copie - Copie.c">
+            <BuildOrder>41</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_font - Copie.c">
+            <BuildOrder>42</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_font.c">
+            <BuildOrder>43</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_hash - Copie (2).h">
+            <BuildOrder>44</BuildOrder>
+        </None>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_hash - Copie - Copie.c">
+            <BuildOrder>45</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_hash - Copie - Copie.h">
+            <BuildOrder>46</BuildOrder>
+        </None>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_hash - Copie.c">
+            <BuildOrder>47</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_hash - Copie.h">
+            <BuildOrder>48</BuildOrder>
+        </None>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\gif_hash.c">
+            <BuildOrder>49</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_hash.h">
+            <BuildOrder>50</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_lib - Copie - Copie.h">
+            <BuildOrder>51</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_lib - Copie.h">
+            <BuildOrder>52</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_lib.h">
+            <BuildOrder>53</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_lib_private - Copie - Copie.h">
+            <BuildOrder>54</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_lib_private - Copie.h">
+            <BuildOrder>55</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\gif_lib_private.h">
+            <BuildOrder>56</BuildOrder>
+        </None>
+        <None Include="..\..\Downloads\giflib-5.2.2\history.adoc"/>
+        <None Include="..\..\Downloads\giflib-5.2.2\Makefile"/>
+        <None Include="..\..\Downloads\giflib-5.2.2\NEWS"/>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\openbsd-reallocarray.c">
+            <BuildOrder>60</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\qprintf.c">
+            <BuildOrder>61</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Downloads\giflib-5.2.2\quantize.c">
+            <BuildOrder>62</BuildOrder>
+        </CppCompile>
+        <None Include="..\..\Downloads\giflib-5.2.2\README"/>
+        <None Include="..\..\Downloads\giflib-5.2.2\TODO"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
